@@ -125,6 +125,9 @@ fabric.properties
 *.zip
 *.tar.gz
 *.rar
+*.lock
+*.class
+*.bin
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -240,6 +243,7 @@ iOSInjectionProject/
 
 ### Gradle ###
 .gradle
+.gradle/*
 
 # Ignore Gradle GUI config
 gradle-app.setting
